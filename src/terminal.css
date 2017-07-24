@@ -1,0 +1,35 @@
+/* -*- coding: utf-8 -*- */
+
+.terminal.terminal-text .lines
+{
+    height: 24em;
+    width: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0.5em 0px;
+}
+
+.terminal.terminal-text .lines .line
+{
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    height: 1.3em;
+    line-height: 1.3em;
+    white-space: pre;
+    font-family: consolas;
+    font-size: 12px;
+}
+
+.terminal canvas
+{
+    outline: 2px solid Black;
+}
+
+.terminal canvas:focus {
+    outline: 2px solid Green;
+}
+
